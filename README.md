@@ -79,8 +79,3 @@ python -m build
 `PathingFileGenerator.java` uses text blocks and records, so it requires Java
 16 or newer to compile. It is retained as a legacy fixed-output example; the
 Python converter is the supported tool.
-
-## License
-
-No license has been selected yet. Until one is added, normal copyright rules
-apply and reuse is not granted.
