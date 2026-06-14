@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "java2pedro-pathing"
+version = "0.1.0"
+description = "Convert FTC autonomous Java source into Pedro Pathing visualizer JSON."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    { name = "JeffreyL-3" },
+]
+keywords = ["ftc", "pedro-pathing", "robotics", "pathing"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Scientific/Engineering",
+]
+
+[project.urls]
+Homepage = "https://github.com/JeffreyL-3/Java2PedroPathing"
+Issues = "https://github.com/JeffreyL-3/Java2PedroPathing/issues"
+
+[project.scripts]
+java2pedro-pathing = "pathing_tool:main"
+
+[tool.setuptools]
+py-modules = ["pathing_tool"]

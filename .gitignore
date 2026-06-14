@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Java
+*.class
+
+# Build and coverage output
+build/
+dist/
+htmlcov/
+.coverage
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
