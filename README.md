@@ -1,6 +1,6 @@
 # Pathing JSON Generator
 
-This repo includes a tool that converts a raw FTC autonomous Java file into a pathing JSON file for pedropathing.
+This repo includes a tool that converts a raw FTC autonomous Java file into a pathing JSON file for the Pedro Pathing visualizer.
 
 ## Tool
 
